@@ -1,0 +1,74 @@
+body {
+    margin: 50px 50px opx 50px;
+    display: flex;
+    flex-direction: column;
+    font-family: 'Courier New', Courier, monospace;
+    min-height: 95vh;
+    
+}
+.main {
+    flex: 1;
+  }
+
+
+  footer {
+    text-align: right;
+  }
+
+  .title-image {
+    float: left;
+    height: 200px;
+    
+
+  }
+
+ 
+.left {
+
+    float: left;
+}
+.right {
+
+    float: right;
+    
+}
+.color {
+    color: blueviolet;
+     }
+
+
+
+@media (max-widh: 1601px){
+    .logo {
+        width: 100px;
+    }
+}
+
+h1 {
+    text-align: center;
+    font-family: "Matemasie", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 3.5rem;
+  }
+
+  .card {
+    
+    width: 45%;
+    display: block;
+    margin-bottom: 30px;
+    margin-left: 10px;
+    
+    text-align: justify;
+  }
+
+  .card img {
+    margin-bottom: 10px;
+    display: inline;
+    margin-right: 10px;
+    
+object-fit: cover;
+    
+
+    
+}
